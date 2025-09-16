@@ -31,6 +31,10 @@ confirmar com botão enter
 **Resultado Obtido:**
 [busca retornou produtos errados tanto em nome quanto imagem]
 
+**evidencias**
+
+docs/evidencias/prints_execucao/CT01.3.png
+
 **------------------------------------------------------------------------------------------------------------**
 
 **ID do Bug:** resultado_errado_edge
@@ -59,5 +63,9 @@ confirmar com botão enter
 
 **Resultado Obtido:**
 [busca retornou produtos errados tanto em nome quanto imagem]
+
+**evidencias**
+
+docs/evidencias/prints_execucao/CT01.6 ( edge ).PNG
 
 **------------------------------------------------------------------------------------------------------------**
