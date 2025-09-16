@@ -1,2 +1,9 @@
-# Casos de Teste – Campo de Busca (Automation Practice)
-(arquivo em construção)
+# Casos de Teste – Automation Practice (Campo de Busca)
+
+| ID   | Título                        | Pré-condição         | Passos                                                                                                                                 | Resultado Esperado                                                      |
+|------|-------------------------------|----------------------|----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| CT01 | Busca de produto existente    | Site acessível       | 1. Acessar o site<br>2. Digitar `iphone` no campo de busca<br>3. Clicar em "Pesquisar"                                                  | Lista de produtos contendo “dress” exibida.                           |
+| CT02 | Busca de produto inexistente  | Site acessível       | 1. Acessar o site<br>2. Digitar `xyz123` no campo de busca<br>3. Clicar em "Pesquisar"                                                 | Mensagem “No results were found for your search” exibida.              |
+| CT03 | Busca em branco               | Site acessível       | 1. Acessar o site<br>2. Deixar o campo de busca vazio<br>3. Clicar em "Pesquisar"                                                      | Sistema deve exibir aviso ou não retornar nenhum produto.              |
+| CT04 | Clique em produto retornado   | Busca com resultados | 1. Pesquisar `ps4`<br>2. Clicar em um produto da lista                                                                               | Usuário redirecionado para a página de detalhes do produto.            |
+| CT05 | Busca com caracteres especiais| Site acessível       | 1. Acessar o site<br>2. Digitar `@@@` no campo de busca<br>3. Clicar em "Pesquisar"                                                    | Nenhum produto exibido + mensagem apropriada.                          |
