@@ -134,3 +134,5 @@ confirmar com botão enter
 
 
 **evidencias**
+
+(docs/evidencias/prints_execucao/CT02.3_EDGE.PNG)
