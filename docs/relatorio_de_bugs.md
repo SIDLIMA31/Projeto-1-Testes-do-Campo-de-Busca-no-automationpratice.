@@ -33,7 +33,7 @@ confirmar com botão enter
 
 **evidencias**
 
-![CT01.1](docs/evidencias/prints_execucao/CT01.3.png)
+(docs/docs/evidencias/prints_execucao/CT01.3.png)
 
 **------------------------------------------------------------------------------------------------------------**
 
